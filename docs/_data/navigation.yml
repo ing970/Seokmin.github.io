@@ -20,8 +20,8 @@ foo:
 
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+  - title: "Category"
+    url: /categories/
   - title: "About"
     url: /about/
   - title: "Sample Posts"
