@@ -1,12 +1,12 @@
 ---
 title: "Play_dat_1강"
 layout: archive
-permalink: categories/unit_1
+permalink: categories/unit1
 author_profile: true
 sidebar_main: true
 ---
 
 
 
-{% assign posts = site.categories.['Unit_1'] %}
+{% assign posts = site.categories.['Unit1'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
