@@ -1,7 +1,7 @@
 ---
 title: "Play_dat_2강"
 layout: archive
-permalink: /unit_2
+permalink: categories/unit_2
 author_profile: true
 sidebar_main: true
 ---
