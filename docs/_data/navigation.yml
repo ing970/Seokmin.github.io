@@ -91,12 +91,12 @@ docs:
 
 # sidebar navigation list sample
 sidebar-sample:
-  - title: "Parent Page A"
+  - title: "TIL 공부"
     children:
-      - title: "Child Page A1"
-        url: /
-      - title: "Child Page A2"
-        url: /
+      - title: "Play_data_1강"
+        url: /unit_1
+      - title: "Play_data_2강"
+        url: /unit_2
       - title: "Child Page A3"
         url: /
       - title: "Child Page A4"

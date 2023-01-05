@@ -1,7 +1,7 @@
 ---
-title: "TIL 공부"
+title: "Play_dat_1강"
 layout: archive
-permalink: /categories/til/
+permalink: unit_1/
 author_profile: true
 sidebar_main: true
 ---
