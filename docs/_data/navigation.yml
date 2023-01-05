@@ -90,7 +90,7 @@ docs:
         url: /terms/
 
 # sidebar navigation list sample
-sidebar-sample:
+sidebar-category:
   - title: "TIL 공부"
     children:
       - title: "Play_data_1강"
