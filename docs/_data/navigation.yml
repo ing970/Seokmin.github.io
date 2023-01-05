@@ -20,10 +20,10 @@ foo:
 
 # main links
 main:
+  - title: "Home"
+    url: /index.html
   - title: "Category"
     url: /categories/
-  - title: "Tag"
-    url: /tags/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
@@ -94,9 +94,9 @@ sidebar-category:
   - title: "TIL 공부"
     children:
       - title: "Play_data_1강"
-        url: /unit_1
+        url: categories/unit_1
       - title: "Play_data_2강"
-        url: /unit_2
+        url: categories/unit_2
       - title: "Child Page A3"
         url: /
       - title: "Child Page A4"
