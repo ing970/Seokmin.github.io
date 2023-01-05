@@ -1,5 +1,5 @@
 ---
-title: "Play_dat_1강"
+title: "플레이데이터 1강"
 layout: archive
 permalink: categories/Unit1 # 똑같이 맞추기
 author_profile: true
