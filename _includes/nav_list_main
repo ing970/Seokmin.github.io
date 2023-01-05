@@ -19,14 +19,14 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "Play_dat_1강" %}
-                        <li><a href="/categories/unit_1" class="">unit_1 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/unit1" class="">unit_1 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Play_dat_2강" %}
-                        <li><a href="/categories/unit_2" class="">unit_2 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/unit2" class="">unit_2 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
