@@ -1,12 +1,12 @@
 ---
-title: "Play_dat_1강"
+title: "Play_dat_2강"
 layout: archive
-permalink: categories/Unit1
+permalink: categories/Unit2 # 똑같이 맞추기
 author_profile: true
 sidebar_main: true
 ---
 
 
 
-{% assign posts = site.categories.Unit1 %}
+{% assign posts = site.categories.Unit2 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
