@@ -1,7 +1,7 @@
 ---
 title: "Play_dat_2강"
 layout: archive
-permalink: /categories/Unit2 # 똑같이 맞추기
+permalink: categories/Unit2 # 똑같이 맞추기
 author_profile: true
 sidebar_main: true
 ---
