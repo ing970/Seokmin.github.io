@@ -1,5 +1,5 @@
 ---
-title: "플레이데이터 2강"
+title: "데이터타입"
 layout: archive
 permalink: categories/Unit2 # 똑같이 맞추기
 author_profile: true
