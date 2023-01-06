@@ -12,7 +12,7 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">TIL 공부</span>
+        <span class="nav__sub-title">Python 기초</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
@@ -30,18 +30,18 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Error 일기</span>
+        <span class="nav__sub-title">Pandas 기초</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Errordiary" %}
-                        <li><a href="/categories/errordiary" class="">error 실수 (with C++) ({{category[1].size}})</a></li>
+                    {% if category[0] == "Series" %}
+                        <li><a href="/categories/series" class="">1강 Series({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                    {% if category[0] == "DataFrame" %}
+                        <li><a href="/categories/programmers" class="">2강 DataFrame ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
