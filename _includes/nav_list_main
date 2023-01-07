@@ -19,14 +19,77 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "Unit1" %}
-                        <li><a href="/categories/Unit1" class="">플레이데이터 1강 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Unit1" class="">1강_개념 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unit2" %}
-                        <li><a href="/categories/Unit2" class="">플레이데이터 2강 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Unit2" class="">데이터타입(2강) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unit3" %}
+                        <li><a href="/categories/Unit3" class="">플레이데이터 3강 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unit4" %}
+                        <li><a href="/categories/Unit4" class="">플레이데이터 4강 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unit5" %}
+                        <li><a href="/categories/Unit5" class="">플레이데이터 5강 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unit6" %}
+                        <li><a href="/categories/Unit6" class="">플레이데이터 6강 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unit7" %}
+                        <li><a href="/categories/Unit7" class="">플레이데이터 7강 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unit8" %}
+                        <li><a href="/categories/Unit8" class="">플레이데이터 8강 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unit9" %}
+                        <li><a href="/categories/Unit9" class="">플레이데이터 9강 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unit10" %}
+                        <li><a href="/categories/Unit10" class="">플레이데이터 10강 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unit11" %}
+                        <li><a href="/categories/Unit11" class="">플레이데이터 11강 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
