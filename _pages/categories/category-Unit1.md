@@ -1,5 +1,5 @@
 ---
-title: "개요"
+title: "Python 개념"
 layout: archive
 permalink: categories/Unit1 # 똑같이 맞추기
 author_profile: true
