@@ -33,63 +33,63 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unit3" %}
-                        <li><a href="/categories/Unit3" class="">플레이데이터 3강 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Unit3" class="">3강_자료구조 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unit4" %}
-                        <li><a href="/categories/Unit4" class="">플레이데이터 4강 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Unit4" class="">4강_제어문 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unit5" %}
-                        <li><a href="/categories/Unit5" class="">플레이데이터 5강 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Unit5" class="">5강_함수 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unit6" %}
-                        <li><a href="/categories/Unit6" class="">플레이데이터 6강 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Unit6" class="">6강_객체지향 프로그램 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unit7" %}
-                        <li><a href="/categories/Unit7" class="">플레이데이터 7강 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Unit7" class="">7강_패키지 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unit8" %}
-                        <li><a href="/categories/Unit8" class="">플레이데이터 8강 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Unit8" class="">8강_예외처리 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unit9" %}
-                        <li><a href="/categories/Unit9" class="">플레이데이터 9강 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Unit9" class="">9강_입출력 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unit10" %}
-                        <li><a href="/categories/Unit10" class="">플레이데이터 10강 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Unit10" class="">10강_Iterable과 Decorator ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Unit11" %}
-                        <li><a href="/categories/Unit11" class="">플레이데이터 11강 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Unit11" class="">11강_파이썬 정규표현식 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -97,14 +97,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Series" %}
-                        <li><a href="/categories/series" class="">1강 Series({{category[1].size}})</a></li>
+                        <li><a href="/categories/series" class="">1강_Series({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DataFrame" %}
-                        <li><a href="/categories/daraframe" class="">2강 DataFrame ({{category[1].size}})</a></li>
+                        <li><a href="/categories/daraframe" class="">2강_DataFrame ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
