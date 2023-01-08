@@ -1,7 +1,7 @@
 ---
 title: "Anaconda"
 layout: archive
-permalink: categories/Anaconda # 똑같이 맞추기
+permalink: categories/anaconda # 똑같이 맞추기
 author_profile: true 
 sidebar_main: true
 ---
