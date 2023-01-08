@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Smile_Coding"
+title                    : "클라이밍하는 개발자"
 title_separator          : "|"
 subtitle                 : # smile and make it happen.
 name                     : "Seokmin"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "SeokminLEE"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "반갑습니다. :)"
+  bio              : "TIL 블로그 입니다."
   location         : "Republic of South Korea"
   email            : "97sukmin@naver.com"
   links:
