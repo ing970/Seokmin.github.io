@@ -1,7 +1,7 @@
 ---
 title:  "Anaconda 가상환경"
 categories:
-   # - Unit2 #똑같이 맞추기
+    - Anaconda #똑같이 맞추기
 tags:
     - [Python,Anaconda,Pandas] 
 toc: true
@@ -10,7 +10,7 @@ toc_label: "목차"
 ---
 
 
-# Pandas
+# Anaconda
 
 - 가상환경이란
     - 프로젝트 개발에 필요한 파이썬 환경을 구축하는 것 이다.

@@ -108,6 +108,14 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Anaconda</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Anaconda" %}
+                        <li><a href="/categories/anaconda" class=""> 가상환경({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
   </ul>
 </nav>
