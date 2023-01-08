@@ -1,0 +1,37 @@
+---
+title:  "Anaconda 가상환경"
+categories:
+   # - Unit2 #똑같이 맞추기
+tags:
+    - [Python,Anaconda,Pandas] 
+toc: true
+toc_sticky: true
+toc_label: "목차"
+---
+
+
+# Pandas 개요
+
+- 가상환경이란
+    - 프로젝트 개발에 필요한 파이썬 환경을 구축하는 것 이다.
+    - 개발에 필요한 버전의파이썬과 패키지들을 따로 설치해 독립된 공간을 만들어 준다.
+    - 명령어:
+        1. conda create -- name ml [python = 3.9]
+        2. conda activate ml - ml이라는 가상환경 활성화
+        3. pip install notebook pandas - 판다스 설치
+        4. pip install jupyterlab
+        5. pip install pandas --upgrade(or '-U')
+    - 확장:
+        1. pip install jupyter_contrib_nbextensions
+        2. upyter contrib nbextension install
+    - 실행:
+        1. jupyter lab - lab 실행
+
+        ![address(p)](/assets/images/address(p).png)
+        - lab => tree로 넘어가면 jupyter notebook으로 이동 가능.
+
+        2. conda remove -n 가상환경이름 패키지이름 => 가상환경 삭제
+        3. conda remove -n 가상환경이름 –all => 가상환경 전체 삭제
+        4. conda env export --name 가상환경이름 > 파일명.yml => 가상환경의 환경정보 추출
+        5. conda env create -f 파일명.yml => 추출한 가상환경 정보로 새로운 가상환경 생성
+
