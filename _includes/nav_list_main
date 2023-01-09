@@ -97,14 +97,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Series" %}
-                        <li><a href="/categories/series" class="">1강_Series({{category[1].size}})</a></li>
+                        <li><a href="/categories/Series" class="">1강_Series({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DataFrame" %}
-                        <li><a href="/categories/dataframe" class="">2강_DataFrame ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Dataframe" class="">2강_DataFrame ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -112,7 +112,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Anaconda" %}
-                        <li><a href="/categories/anaconda" class=""> 가상환경({{category[1].size}})</a></li>
+                        <li><a href="/categories/Anaconda" class=""> 가상환경({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
