@@ -103,7 +103,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "DataFrame" %}
+                    {% if category[0] == "Dataframe" %}
                         <li><a href="/categories/Dataframe" class="">2강_DataFrame ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
