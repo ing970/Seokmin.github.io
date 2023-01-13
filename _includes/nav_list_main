@@ -108,6 +108,28 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Sort" %}
+                        <li><a href="/categories/Sort" class="">3강_정렬 및 집계 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Groupy" %}
+                        <li><a href="/categories/Groupy" class="">4강_groupy 및 일괄처리 메소드 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Visualization</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Matplotlib" %}
+                        <li><a href="/categories/Matplotlib" class=""> Matplotlib({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">Anaconda</span>
             <ul>
                 {% for category in site.categories %}
