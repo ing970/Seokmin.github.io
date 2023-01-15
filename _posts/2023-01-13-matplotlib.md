@@ -26,7 +26,7 @@ toc_label: "목차"
 - 다양한 출력 형식으로 저장할 수 있다.
 
 ## matplotlib 그래프 구성요소
-![image.png](attachment:image.png)
+![mat_1.png](/assets/images/playdata/mat_1.png)
 
 - **figure**
     - 전체 그래프가 위치할 기본 틀
@@ -78,7 +78,7 @@ plt.show()
 
 
     
-![png](output_4_0.png)
+![mat_2.png](/assets/images/playdata/mat_2.png)
     
 
 
@@ -147,7 +147,7 @@ plt.show()
 
 
     
-![png](output_11_0.png)
+![mat_3.png](/assets/images/playdata/mat_3.png)
     
 
 
@@ -193,13 +193,11 @@ plt.show
 
 
 
-    <function matplotlib.pyplot.show(close=None, block=None)>
-
 
 
 
     
-![png](output_13_1.png)
+![mat_4.png](/assets/images/playdata/mat_4.png)
     
 
 
@@ -229,13 +227,12 @@ plt.show
 
 
 
-    <function matplotlib.pyplot.show(close=None, block=None)>
 
 
 
 
     
-![png](output_14_1.png)
+![mat_5.png](/assets/images/playdata/mat_5.png)
     
 
 
@@ -255,7 +252,7 @@ plt.show()
 
 
     
-![png](output_16_0.png)
+![mat_6.png](/assets/images/playdata/mat_6.png)
     
 
 
@@ -293,7 +290,7 @@ plt.show()
 
 
     
-![png](output_19_0.png)
+![mat_7.png](/assets/images/playdata/mat_7.png)
     
 
 
@@ -326,13 +323,11 @@ plt.show
 
 
 
-    <function matplotlib.pyplot.show(close=None, block=None)>
-
 
 
 
     
-![png](output_21_1.png)
+![mat_8.png](/assets/images/playdata/mat_8.png)
     
 
 
@@ -358,7 +353,7 @@ plt.show()
 
 
     
-![png](output_23_0.png)
+![mat_9.png](/assets/images/playdata/mat_9.png)
     
 
 
@@ -392,7 +387,7 @@ plt.show()
 
 
     
-![png](output_24_0.png)
+![mat_10.png](/assets/images/playdata/mat_10.png)
     
 
 
