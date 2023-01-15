@@ -126,7 +126,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Matplotlib" %}
-                        <li><a href="/categories/Matplotlib" class=""> Matplotlib({{category[1].size}})</a></li>
+                        <li><a href="/categories/Matplotlibb" class=""> Matplotlib({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
