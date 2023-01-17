@@ -1,5 +1,5 @@
 ---
-title:  "1.Matplotlib 개념 및 시각화"
+title:  "1. Matplotlib 개념 및 시각화"
 categories:
     - Matplotlib #똑같이 맞추기
 tags:
