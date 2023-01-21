@@ -140,7 +140,7 @@
         <span class="nav__sub-title">Machine Learning</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Machine" %}
+                    {% if category[0] == "machine" %}
                         <li><a href="/categories/Machinelearning" class="">머신러닝({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
